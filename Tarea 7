@@ -1,0 +1,25 @@
+#include <stdio.h>
+
+int main (){
+	int a,b,c;
+	
+	printf("Introduzca el numero a:");
+	scanf("%d",&a);
+	printf("Introduzca el numero b:");
+	scanf("%d",&b);
+	printf("Introduzca el numero c:");
+	scanf("%d",&c);
+	
+	if (a<b && a<b){
+		printf("El numero a es menor");
+	}
+	else if (b<a && b<c){
+		printf("El numero b es menor");
+	}
+	else{
+		("El numero c es menor");
+	}
+}
+
+
+
